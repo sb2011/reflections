@@ -1,0 +1,34 @@
+How did viewing a diff between two versions of a file help you see the bug that was introduced?
+
+It obviated the need to search all the lines of the files for the differences. Since it printed out only the differences and the line numbers where the differences occurred, it was easy to find the bug.
+
+
+How could having easy access to the entire history of a file make you a more efficient programmer in the long term?
+
+I can see how the code has progressed over a period of time. I can learn from past mistakes, revert to old versions if needed. I won't need to save different versions of the same file under different file names, an approach which would also take up more disk space.
+
+
+What do you think are the pros and cons of manually choosing when to create a commit, like you do in Git, vs having versions automatically saved, like Google Docs does?
+
+Pros of manually choosing: More flexibility. The code won't get committed unless it compiles and works.
+Cons: Human error. Programmer might make too many changes in the code before committing. It would then be difficult to see the differences between the most recent commit and the previous commit.
+
+
+Why do you think some version control systems, like Git, allow saving multiple files in one commit, while others, like Google Docs, treat each file separately?
+
+Git is mainly used to store code and track changes in code. Many files will be interrelated. In Google Docs, the files are mostly general purpose ones, which would most likely not be interrelated.
+
+
+How can you use the commands git log and git diff to view the history of files?
+
+"git log" to view the commit messages. "git diff" to view the differences between two commits.
+
+
+How might using version control make you more confident to make changes that could break something?
+
+If a certain commit introduced bugs, I can checkout the previous commit.
+
+
+Now that you have your workspace set up, what do you want to try using Git for?
+
+To write and maintain code and keep track of its changes
