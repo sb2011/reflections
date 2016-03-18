@@ -12,3 +12,8 @@ Working directory contains local changes. Repository contains latest committed v
 How can you use the staging area to make sure you have one commit per logical change?
 
 Add to the staging area only the files related to that particular change. Keep the unrelated, changed files in the working directory and stage them after committing the files staged earlier.
+
+
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+
+If I want to work on a major feature and also be able to work on quick, urgent code fixes, I can create a branch for the new feature and go back to the original branch to just fix bugs quickly. I could work on multiple new features, each on a different branch.
