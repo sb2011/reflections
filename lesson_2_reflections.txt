@@ -17,3 +17,8 @@ Add to the staging area only the files related to that particular change. Keep t
 What are some situations when branches would be helpful in keeping your history organized? How would branches help?
 
 If I want to work on a major feature and also be able to work on quick, urgent code fixes, I can create a branch for the new feature and go back to the original branch to just fix bugs quickly. I could work on multiple new features, each on a different branch.
+
+
+How do the diagrams help you visualize the branch structure?
+
+They convey to us which commit is the parent of which other commit(s). This helps us visualize the repository tree while branching, committing and merging. We would also know better which commits would be retained or lost if we carried out some operation.
