@@ -1,0 +1,9 @@
+What happens when you initialize a repository? Why do you need to do it?
+
+The files in the directory are marked as "untracked". The .git folder is created.
+Initializing a repository is required to create a HEAD pointer and to enable us to track the history of files.
+
+
+How is the staging area different from the working directory and the repository? What value do you think it offers?
+
+Working directory contains local changes. Repository contains latest committed version of the files and the history of changes of the files. Staging area helps us organize our commits better.
