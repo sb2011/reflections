@@ -22,3 +22,8 @@ If I want to work on a major feature and also be able to work on quick, urgent c
 How do the diagrams help you visualize the branch structure?
 
 They convey to us which commit is the parent of which other commit(s). This helps us visualize the repository tree while branching, committing and merging. We would also know better which commits would be retained or lost if we carried out some operation.
+
+
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+
+The resultant file contains content merged from both branches. We can easily view the commits and understand the purpose of the branches and see which commit belongs to which branch, if the commits and merges are represented using diagrams.
