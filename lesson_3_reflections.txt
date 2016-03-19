@@ -22,3 +22,8 @@ To copy on my local machine a repository for which I have "push" permissions, I 
 What is the benefit of having a copy of the last known state of the remote stored locally?
 
 It would be easier to merge local changes into the remote, especially if we are offline.
+
+
+How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
+
+I would use something like Google Docs for simpler projects. It would be quicker to merge two plain text files manually, by looking at people's changes in Google Docs or a wiki. However, this would not be manageable for large projects which maintain many inter-related source code files. For more complex projects, I would use GitHub or Git.
