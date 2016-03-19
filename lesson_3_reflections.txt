@@ -4,3 +4,8 @@ work local?
 When I want to release my work to others. This will enable others to view the 
 content and modify it on their local machines. Remote repositories are 
 convenient for maintaining open-source projects.
+
+
+Why might you want to always pull changes manually rather than having Git automatically stay up-to-date with your remote repository?
+
+Automatic updates from remote might introduce bugs or compilation errors when we are working on a new feature on our local repositories. It might also create merge conflicts, so it is better to pull changes manually.
