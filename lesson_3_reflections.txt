@@ -9,3 +9,11 @@ convenient for maintaining open-source projects.
 Why might you want to always pull changes manually rather than having Git automatically stay up-to-date with your remote repository?
 
 Automatic updates from remote might introduce bugs or compilation errors when we are working on a new feature on our local repositories. It might also create merge conflicts, so it is better to pull changes manually.
+
+
+Describe the differences between forks, clones, and branches. When would you use one instead of another?
+
+"git branch" creates new labels starting from a commit of our choice. When we "checkout" that branch, any subsequent commits will be added to that branch and will not be reachable from the main branch unless the two branches are merged.
+"git clone" creates a new copy of a repository from a repository present in GitHub or in a local machine.
+"git fork" is similar to "git clone", but it is used to copy a GitHub repository to another GitHub repository (instead of a local one).
+To copy on my local machine a repository for which I have "push" permissions, I would use clone. If I don't have push permissions, I would first use fork, then clone. I would then use branches to add features or fix bugs for that project.
