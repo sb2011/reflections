@@ -27,3 +27,9 @@ They convey to us which commit is the parent of which other commit(s). This help
 What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
 
 The resultant file contains content merged from both branches. We can easily view the commits and understand the purpose of the branches and see which commit belongs to which branch, if the commits and merges are represented using diagrams.
+
+
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+
+Pros of automatic merging: The authors don't need to merge the changes manually. This saves their time.
+Cons: Automatic merging could go wrong. This could result in code which does not compile or run properly, or a text document which does not make sense.
