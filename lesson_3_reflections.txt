@@ -27,3 +27,9 @@ It would be easier to merge local changes into the remote, especially if we are 
 How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
 
 I would use something like Google Docs for simpler projects. It would be quicker to merge two plain text files manually, by looking at people's changes in Google Docs or a wiki. However, this would not be manageable for large projects which maintain many inter-related source code files. For more complex projects, I would use GitHub or Git.
+
+
+When would you want to make changes in a separate branch rather than directly in master? What benefits does each approach have?
+
+Separate branch: When I need to work on several things at the same time. I should be able to keep changes related to different features independent of each other in that case.
+Directly in master: When I need to make a small change (quick bug fix etc.)
